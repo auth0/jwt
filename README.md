@@ -43,7 +43,7 @@ You can also deserialize the JSON payload directly to a .Net object with DecodeT
     Console.Out.WriteLine(payload["claim2"]);
 
 which will output:
-    
+
     claim2-value
 
 ### Audience, Issuer and Expiration check
@@ -52,3 +52,10 @@ The library support checking audience (aud), issuer (iss) and expiration (exp). 
 
     var payload = JWT.JsonWebToken.DecodeToObject(token, secretKey, audience: "urn:myaudience", issuer: "my:issuer", checkExpiration: true) as IDictionary<string, object>;
 
+## Author
+
+[Auth0](auth0.com)
+
+## License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
