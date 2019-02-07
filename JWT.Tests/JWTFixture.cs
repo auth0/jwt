@@ -32,7 +32,7 @@ namespace JWT.Tests
             }
             catch (SignatureVerificationException ex)
             {
-                Assert.AreEqual("Invalid signature. Expected 8Qh5lJ5gSaQylkSdaCIDBoOqKzhoJ0Nutkkap8RgB1Y= got 8Qh5lJ5gSaQylkSdaCIDBoOqKzhoJ0Nutkkap8RgBOo=", ex.Message);
+                Assert.AreEqual("Invalid signature.", ex.Message);
                 return;
             }
 
