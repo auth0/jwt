@@ -4,4 +4,4 @@
 
 This library has been deprecated and will receive no further updates or fixes.
 
-Users are advised to switch to [https://github.com/jwt-dotnet/jwt](JWT.NET) which this library was based upon as soon as possible. 
+Users are advised to switch to [JWT.NET](https://github.com/jwt-dotnet/jwt) which this library was based upon as soon as possible. 
